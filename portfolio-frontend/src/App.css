@@ -1,0 +1,197 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #282c34;
+  color: white;
+}
+
+.about-me {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-section {
+  background-color: #f0f0f0; /* Light grey */
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 10px;
+  color: #333; /* Dark grey text for contrast */
+}
+
+
+.profile-image img {
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area */
+  margin-top: 20px;
+}
+
+.portfolio-btn {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.portfolio-btn:hover {
+  background-color: #21a1f1;
+}
+
+.categories-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.category {
+  flex: 1;
+  margin: 50px 10px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.category:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.category h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.category p {
+  font-size: 1em;
+  color: #333;
+}
+
+.projects-section, .skills-section, .experience-section, .about-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.projects-section h2, .skills-section h2, .experience-section h2, .about-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+  color: #61dafb; /* React blue color for the skill titles */
+}
+
+.skill p {
+  color: #333;
+}
+
+.experience-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.experience-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.experience-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience-box:hover {
+  transform: scale(1.05);
+}
+
+.experience-box h3 {
+  margin-top: 0;
+  color: #61dafb;
+}
+
+.experience-box p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+.experience-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-box a {
+  color: black;
+  text-decoration: none;
+}
+
+.experience-box a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #f0f0f0; /* Light grey */
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+.social-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333; /* Adjust the text color if needed */
+  align-items: center;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* Change the color when hovered */
+}
+
+.social-links a i {
+  margin-right: 8px;
+}
+
+
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

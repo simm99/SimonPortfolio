@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Name": "React Audio Player",
+    "Description": "Very simple, yet impactful audio player.",
+    "Url": "https://github.com/simm99/react-audio-player",
+    "ImageUrl": "https://raw.githubusercontent.com/simm99/react-audio-player/main/public/reactaudioplayer-preview.png"
+  },
+  {
+    "Id": 2,
+    "Name": "Music App made with Spotify API",
+    "Description": "A music app that interfaces with the Spotify API.",
+    "Url": "https://github.com/simm99/Music-Player-with-Spotify-API",
+    "ImageUrl": "https://example.com/music-app-preview.png"
+  }
+]
