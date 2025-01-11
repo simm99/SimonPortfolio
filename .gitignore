@@ -1,0 +1,10 @@
+# Node.js dependencies for frontend
+frontend/node_modules/
+
+# ASP.NET Core build files for backend
+backend/bin/
+backend/obj/
+
+# Environment variables
+frontend/.env
+backend/.env
